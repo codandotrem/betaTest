@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+
+h1{
+    position: relative;
+    width: 512px;
+    height: 126px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+}
+
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+input{
+    position: relative;
+    margin-top:10px;
+    width: 811px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    color:#000000
+}
+
+input::placeholder{
+    color:#000000;
+    padding-left:10px;
+}
+
+.desc{
+    width: 811px;
+    height: 150px;
+   
+}
+
+.desc::placeholder{
+    position:absolute;
+    margin-top:10px;
+}
+
+
+
+
+/*header*/
+
+
+
+.head{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 117px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.head .texts{
+    display: flex;
+    margin-left:702px;
+    width:auto;
+
+}
+
+.head img{
+    position: relative;
+    margin-left:82px;
+    width: 69px;
+    height: 71px;
+}
+
+.head h2{
+    position: relative;
+    margin-left:11px;
+    width: 164px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+
+
+.head p{
+    position: relative;
+    margin-left:42px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+/*main */
+
+
+.cabeçalho{
+    position:relative;
+    margin-top:82px;
+    margin-left:82px;
+}
+
+.cabeçalho h2{
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+
+.content{
+    position:relative;
+    display:flex;
+    margin-top:90px;
+    margin-bottom:90px;
+    margin-left:112px;
+}
+
+
+.content .info{
+    text-align:justify;
+    position:relative;
+    margin-left:53px;
+}
+
+
+.content .info #texto{
+    position: relative;
+    width: 461px;
+    height: 186px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.content img{
+    position:relative;
+    width:380px;
+}
+
+
+.content h3{
+    position: relative;
+    width: 512px;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.content p{
+    margin-top:32px;
+}
+
+.content button{
+    position: relative;
+    margin-top:39px;
+    width: 233px;
+    height: 51px;
+    background: #2E948A;
+    border-radius: 62px;
+    color: #FFFFFF;
+}
+
+.content button:hover{
+    background:#5ddbcf;
+    color:#ebfffd;
+}
+
+.linha{
+    position: relative;
+    margin-top:68px;
+    margin-left:98px;
+    width: 1244px;
+    height: 5px;
+    background: #C4C4C4;
+}
+
+
+.videos{
+    position: relative;
+    width: 1440px;
+    height: 1235px;
+    background: #F7F7F7;
+}
+
+.video_descrition{
+    position:relative;
+    margin-left:76px;
+}
+
+.video{
+    position:relative;
+    display:flex;
+    margin-top:75px;
+    margin-left:213px;
+}
+
+.video h2{
+    position: relative;
+    width:auto;
+    height:auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.video p{
+    position: relative;
+    margin-top:26px;
+    width: 501px;
+    height: 195px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+
+.content_painel{
+    position:relative;
+    display:flex;
+    margin-top:90px;
+    margin-bottom:90px;
+    margin-left:112px;
+}
+
+.content_painel h1{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+}
+
+.content_painel p{
+    margin-top:0px;
+}
+
+
+
+.formulario{
+    margin-left:83px;
+}
+
+#formulario_titulo{
+    position: relative;
+    margin-top:93px;
+    margin-bottom:37px;
+    width: 512px;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.formulario button{
+    position: relative;
+    margin-top:43px;
+    margin-bottom:163px;
+    width: 233px;
+    height: 51px;
+    background: #2E948A;
+    border-radius: 62px;
+    color:#FFFFFF;
+}
+
+.aula h3{
+    position: relative;
+    margin-top:21px;
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #419488;
+
+}
+
+table{
+    text-align: center;
+    margin-left:82px;
+    margin-bottom:167px;
+    width: 812px;
+}
+
+table #table_head{
+    background: #EBEBEB;
+}
+
+table th{
+    text-align:left;
+}
+
+table td{
+    text-align:left;
+}
+
+table td .edit{
+    position: relative;
+    width: 87px;
+    height: 22px;
+    background: #F8C23A;
+    color:#FFFFFF;
+}
+
+table td .exclude{
+    position: relative;
+    width: 87px;
+    height: 22px;
+    background: #F8513A;
+    color:#FFFFFF;
+}
+
+
+
+
+/* Footer */ 
+
+
+
+.rodapé{
+    display:flex;
+    align-items: center;
+    position: relative;
+    width: 1443px;
+    height: 207px;
+    background: #419488;
+}
+
+.rodapé_content{
+    margin-left:11px;
+}
+
+
+.rodapé img{
+    position: relative;
+    margin-left: 128px;
+    width: 99px;
+    height:auto;
+    background: url(dindin-logo-white (1).png);
+}
+
+.rodapé h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+
+.rodapé p{
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
