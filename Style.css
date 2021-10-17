@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 
+
 *{
-    margin: 0;
+    border:0;
     padding: 0;
+    margin:0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-size:large;
     font-family: Ubuntu;
 }
 
+
 h1{
     position: relative;
-    width: 512px;
     height: 126px;
     font-style: normal;
     font-weight: bold;
@@ -46,7 +52,6 @@ input::placeholder{
 }
 
 .desc::placeholder{
-    position:absolute;
     margin-top:10px;
 }
 
@@ -58,33 +63,32 @@ input::placeholder{
 
 
 .head{
+    position: relative;
     align-items: center;
     display: flex;
-    position: relative;
-    width: 1440px;
+    width:100%;
     height: 117px;
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
 .head .texts{
+    position:relative;
     display: flex;
-    margin-left:702px;
-    width:auto;
-
+    margin-left:auto;
+    margin-right: 40px;
 }
 
 .head img{
     position: relative;
     margin-left:82px;
-    width: 69px;
     height: 71px;
 }
 
 .head h2{
     position: relative;
     margin-left:11px;
-    width: 164px;
+    width: auto;
     height: 64px;
     font-style: normal;
     font-weight: 500;
@@ -118,10 +122,8 @@ input::placeholder{
 }
 
 .cabeçalho h2{
-    width: 263px;
+    position: relative;
     height: 69px;
-    left: 82px;
-    top: 198px;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
@@ -162,12 +164,13 @@ input::placeholder{
 .content img{
     position:relative;
     width:380px;
+    margin-left:88px;
 }
 
 
 .content h3{
     position: relative;
-    width: 512px;
+    width: 100%;
     height: 40px;
     font-style: normal;
     font-weight: bold;
@@ -177,6 +180,8 @@ input::placeholder{
 }
 
 .content p{
+    width: 85%;
+    font-size:auto;
     margin-top:32px;
 }
 
@@ -197,36 +202,49 @@ input::placeholder{
 
 .linha{
     position: relative;
-    margin-top:68px;
     margin-left:98px;
-    width: 1244px;
+    width: 85%;
     height: 5px;
     background: #C4C4C4;
 }
 
 
+
+
+
+
 .videos{
     position: relative;
-    width: 1440px;
-    height: 1235px;
+    width: auto;
+    height: 100%;
     background: #F7F7F7;
+    background-size:cover
 }
 
 .video_descrition{
     position:relative;
     margin-left:76px;
+    margin-bottom:75px;
 }
 
 .video{
     position:relative;
     display:flex;
-    margin-top:75px;
     margin-left:213px;
 }
 
+video{
+    width:100%;
+}
+
+.video .video_descrition, video{
+    margin-top:75px;
+}
+
+
 .video h2{
     position: relative;
-    width:auto;
+    width:100%;
     height:auto;
     font-style: normal;
     font-weight: 700;
@@ -235,19 +253,23 @@ input::placeholder{
     color: #FF4081;
 }
 
+
 .video p{
     position: relative;
     margin-top:26px;
-    width: 501px;
+    width: 70%;
     height: 195px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: auto;
     font-size: 20px;
     line-height: 23px;
     display: flex;
     align-items: center;
     color: #000000;
 }
+
+
+
 
 
 
@@ -288,7 +310,7 @@ input::placeholder{
     height: 40px;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 40px;
     color: #FF4081;
 }
@@ -309,9 +331,9 @@ input::placeholder{
     margin-top:21px;
     width: auto;
     height: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    
+    font-weight:bold;
+    font-size:large;
     line-height: 21px;
     color: #419488;
 
@@ -328,16 +350,18 @@ table #table_head{
     background: #EBEBEB;
 }
 
-table th{
+table th, td{
     text-align:left;
 }
 
-table td{
-    text-align:left;
+table th{
+    font-weight: bold;
 }
+
 
 table td .edit{
     position: relative;
+    margin-left: 10px;
     width: 87px;
     height: 22px;
     background: #F8C23A;
@@ -363,7 +387,7 @@ table td .exclude{
     display:flex;
     align-items: center;
     position: relative;
-    width: 1443px;
+    width: 100%;
     height: 207px;
     background: #419488;
 }
