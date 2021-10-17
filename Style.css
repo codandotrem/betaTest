@@ -277,7 +277,6 @@ video{
     position:relative;
     display:flex;
     margin-top:90px;
-    margin-bottom:90px;
     margin-left:112px;
 }
 
@@ -339,41 +338,59 @@ video{
 
 }
 
+
 table{
-    text-align: center;
-    margin-left:82px;
+    position:relative;
+    margin-left:112px;
+    margin-top:122px;
     margin-bottom:167px;
-    width: 812px;
+    border: 1px solid #989898;
+    border-bottom:none;
+    width: 50%;
 }
 
-table #table_head{
-    background: #EBEBEB;
-}
+
 
 table th, td{
     text-align:left;
+    text-indent: 5%;
+    padding:7px;
+    margin:10px;
+    font-weight: bold;
+    
 }
+
 
 table th{
-    font-weight: bold;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 1px solid #989898;
+    background: #EBEBEB;
 }
 
+table td{
+    border-bottom: 1px solid #989898;
+    font-size:normal;
+    width: 60%;
+}
 
 table td .edit{
     position: relative;
-    margin-left: 10px;
     width: 87px;
     height: 22px;
     background: #F8C23A;
     color:#FFFFFF;
+    font-weight: normal;
 }
 
 table td .exclude{
     position: relative;
+    margin-left:12px;
     width: 87px;
     height: 22px;
     background: #F8513A;
     color:#FFFFFF;
+    font-weight: normal;
 }
 
 

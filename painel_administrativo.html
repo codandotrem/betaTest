@@ -29,13 +29,13 @@
                 </div>
             </section>
             <section>
-                <table>
+                <table cellspacing="0" cellpadding="0" >
                     <tr id="table_head">
                         <th>Curso</th>
-                        <th>Ação</th>
+                        <th id="ação">Ação</th>
                     </tr>
                     <tr>
-                        <td>Investimento Para Inciantes</td>
+                        <td><p>Investimento Para Inciantes</p></td>
                         <td>
                             <button class="edit">editar</button>
                             <button class="exclude">excluir</button>
@@ -50,9 +50,15 @@
                     </tr>
                     <tr>
                         <td>Independencia Financeira</td>
-                        <td>
+                        <td class="botão">
                             <button class="edit">editar</button>
                             <button class="exclude">excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Novo curso</td>
+                        <td>
+                            <button onclick="location.href='novo_curso.html'" class="edit" type="button">adicionar</button>
                         </td>
                     </tr>
                 </table>
