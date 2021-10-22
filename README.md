@@ -1,5 +1,3 @@
 # betaTest
-Repositorio gama academy
-
-
-Problemas: Ainda não está responsivo
+## Repositorio gama academy
+### Teste unicial em html sem responsividade ou componentização;
